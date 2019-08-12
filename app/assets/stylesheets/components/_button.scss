@@ -1,0 +1,64 @@
+
+.btn-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  background-color: #EB4F34;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.btn-brand:hover{
+  filter: brightness(92%);
+  background-color: #EB4F34;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-start{
+  padding: 13px 30px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.btn-explore{
+  color: #EB4F34;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #EB4F34;
+  margin-left: 10px;
+  }
+
+.btn-explore:hover{
+  filter: brightness(92%);
+  background-color: white;
+  color: #EB4F34;
+  text-decoration: none;
+  filter: brightness(92%);
+}
+
+.btn-margin {
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .btn-start {
+    margin-top: 100px;
+    margin-left: 40px;
+    width: fit-content;
+    padding: 10px 20px;
+  }
+
+  .btn-explore {
+    margin-left: 0px;
+    margin-top: 15px;
+    display: flex;
+    width: fit-content;
+    padding: 6px 20px;
+    display: static;
+  }
+}

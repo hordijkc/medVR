@@ -1,0 +1,36 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #F4F4F4;
+  padding: 0px;
+  padding-top: 10px;
+
+  .btn {
+    color: #373D55;
+    font-size: 20px;
+    font-family: Montserrat;
+    margin-top: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 30px;
+    word-spacing: 4px;
+    &:hover {
+      filter: brightness(92%);
+      text-decoration: none;
+      color: red;
+    }
+  }
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40vh;
+}
+
+.fas {
+  color: red;
+  margin-left: -3px;
+  margin-top: -8px;
+}
