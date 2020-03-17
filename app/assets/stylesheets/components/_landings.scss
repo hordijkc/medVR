@@ -11,6 +11,20 @@
   }
 }
 
+.temp {
+  min-height: 20vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 70px;
+  h1{
+    font-weight: bold;
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+}
+
+
 .image-1 {
   width: 100%; // was 22vw
   height: auto;
@@ -96,6 +110,7 @@
 }
 
 @media (max-width: 767px) {
+
   .row-1 {
     h1 {
       font-size: 24px;
